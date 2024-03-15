@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(218, 181, 203);
+    }
+
+#chat{
+    position: fixed;
+    width: 250px;
+    height: 40px;
+    background: rgb(102, 9, 102);
+    bottom: 0;
+    right: 20px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+    }
+
+header{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    }
+
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 250px;
+    height: 60px;
+    background: rgba(192, 129, 192, 0.919);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    }
+
+.redes{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: chocolate;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+    }
+
+#icono1{
+    top: 42px;
+    right: 120px;
+    background: rgb(244, 64, 142);
+    }
+
+#icono2{
+    top: 42px;
+    right: 71px;
+    background: rgb(238, 124, 196);
+    }
+
+#icono3{
+    top: 42px;
+    right: 19px;
+    background: rgb(175, 48, 132);
+    }
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+    background: plum;
+    }
+
+.botones{
+    float: left;
+    width: 196px;
+    margin: 0px 2px;
+    height: 48px;
+    background: rgb(57, 20, 106);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+    }
+
+a .botones:hover{
+    background: rgba(57, 20, 106, 0.658);
+    }
+
+a .botones:active{
+    background: mediumvioletred;
+    }
+
+#top{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 192px;
+    }
+
+#top ul{
+    width: 1010px;
+    background: gold;
+    }
+
+#top ul li{
+    float: left;
+    width: 326px;
+    height: 192px;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+#top ul li img{
+    border-radius: 100%;
+    height: 100px;
+    }
+
+#top ul li h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    }
+
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    background: lemonchiffon;
+    }
+
+aside#izq{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    text-align: center ;
+    }
+
+aside#izq ul li{
+    background: rgb(173, 120, 222);
+    padding: 10px;
+    margin: 10px 10px;
+    list-style: square ;
+    list-style-position: inside;
+    }
+
+article{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    }
+
+article h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 20px;
+    }
+
+article p img{
+    float: left;
+    margin-right: 20px;
+    }
+
+article p{
+    margin: 5px 20px;
+    font-size: 14px;
+    text-align: justify;
+    }
+
+aside#der{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    }
+
+aside#der h1{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(173, 120, 222);
+    color: white;
+    margin-bottom: 20px;
+    }
+
+aside#der input{
+    padding: 10px;
+    margin: 5px 0;
+    width: 176px;
+    }
+
+aside#der input[type="text"]{
+    background: url(usuario.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    }
+
+aside#der input[type="password"]{
+    background: url(contraseña.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    }
+
+aside#der input[type="submit"]{
+    width: 200px;
+    background: rgb(173, 120, 222);
+    border: 0;
+    color: white;
+    }
+
+footer{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 70px;
+    background: rgb(57, 20, 106);
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    }
